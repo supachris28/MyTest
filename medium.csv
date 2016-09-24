@@ -1,0 +1,97 @@
+ID,Skill Card,Sub-topic (S),Title (T),Difficulty (Q),Question,Answer 1,Answer 2,Answer 3,Answer 4,Correct Answer,New Correct Answer
+3,Responsive Web Design Fundamentals,Media queries,Media queries,Medium,Which of the following statements is true regarding media queries?,CSS allows us to fascilitate true conditional logic.,Media Queries are a mechanisim in CSS that allows us to use basic conditional logic.,Media queries present visual content to a wide range of output devises by changing the content.,Media queries limit the capabilities of media types.,Media Queries are a mechanisim in CSS that allows us to use basic conditional logic.,2
+8,Responsive Web Design Fundamentals,Media queries,Media queries,Medium,What feature is not prefixed with ```min``` or ```max```?,resolution,scan,color,orientation,scan,2
+11,Responsive Web Design Fundamentals,Media queries,Media queries,Medium,What are the three possible states for the pointer feature?,"```none```,```coarse```,```scan```","```fine``, ```coarse```, ```scan```","```none```,```scan```,```fine```","```none```,```coarse```,```fine```","```none```,```coarse```,```fine```",4
+13,Responsive Web Design Fundamentals,Fluid layouts & responsive images,Fluid layouts & responsive images,Medium,What is the benefit of having percentages as units of measurements in a layout?,Dimensions have more viscosity.,Dimensions are limited to the size of the container.,Both A and B,None of the Above,Dimensions have more viscosity.,1
+14,Responsive Web Design Fundamentals,Fluid layouts & responsive images,Fluid layouts & responsive images,Medium,What property do you use if it is set to 100% and you would like it to scale up and down?,max-width,height,width,max-height,width,3
+18,Advanced CSS,selectors,selectors,Medium,What selector selects all ```<div>``` elements and all ```<p>``` elements?,```div p```,```div + p```,```div > p```,"```div, p```","```div, p```",4
+19,Advanced CSS,selectors,selectors,Medium,What selector has the highest-specificity?,class selectors,id selectors,tag selectors,attribute selectors,id selectors,2
+23,Advanced CSS,selectors,selectors,Medium,What is grouping?,Allows you to apply the same style to multiple elements through a multiple declaration.,Allows you to apply the same style to single elements through a single declaration.,Allows you to apply the same style to single elements through a multiple declaration.,Allows you to apply the same style to multiple elements through a single declaration.,Allows you to apply the same style to multiple elements through a single declaration.,4
+24,Advanced CSS,selectors,selectors,Medium,What selector has a higher specificity?,element selector,class selector,attribute selector,tag selector,class selector,2
+28,Angular Fundamentals (basic),Directives,Directives,Medium,What is the default restriction when you create an angular directive ?,attribute,elements,attribute and elements,class,attribute and elements,3
+52,UX Design Basics,Webpages,Webpages,Medium,What type of webpage appears as a result of clicking on a search resultl or online advertisement?,Leader capture page,Landing page,Result Page,None of the above,Leader capture page,1
+53,UX Design Basics,Media,Media,Medium,What is a symbol that is used to stand in for a language?,Photography,Imagery,Iconography,Graphics,Iconography,3
+55,UX Design Basics,Best Practice,Best Practice,Medium,What is a best practice for UX Design?,Standardize the fastest and most inefficient way to accomplish a desired task.,Standardize the most effiecient and effective way to accomplish a desired task.,Both A and B,None of the above,Standardize the most effiecient and effective way to accomplish a desired task.,2
+56,UX Design Basics,Responsive design,Responsive design,Medium,What is a desktop best practice when designing for a user experience?,Make the height of an image variable.,Use as much content as possible.,Make hyperlinks as user friendly as possible.,Don't delete any content.,Make hyperlinks as user friendly as possible.,3
+59,UX Design Basics,Wireframing,Wireframing,Medium,Which of the following is not a design priciple for design for a tablet view?,Keep Headings short,Make your default font size 16,Pop-ups not preferred,Put labels above he form inputs.,Make your default font size 16,2
+60,UX Design Basics,Prototyping,Prototyping,Medium,How do you define clicks through a prototype?,By linking one screen through a hotspot.,By linking multiple screens through a hotspot.,By placing screens next to a hotspot.,By placing a screen through a hotspot.,By linking multiple screens through a hotspot.,2
+62,UX Design Basics,Prototyping,Prototyping,Medium,Which of the following is not a quality of protyping?,Representation,Interactivity,Precision,Revolution,Revolution,4
+63,UX Design Basics,Prototyping,Prototyping,Medium,What is a disadvantage to paper prototyping?,Inexpensive,Unrealistic,Fast,Documentation,Unrealistic,2
+65,UX Design Basics,LEAN UX Prototyping,LEAN UX Prototyping,Medium,What is the LEAN UX process?,"Concept, Prototype, Learn from user behavior, Validate Internally, Test Externally, Iterate","Concept, Prototype, Validate Internally, Test Externally, Learn from user behavior, Iterate","Concept, Prototype, Test Externally, Validate Internally, Learn from user behavior, Iterate","User Behavior, Concept, Prototype, Validate Internally, Test Externally, Iterate","Concept, Prototype, Validate Internally, Test Externally, Learn from user behavior, Iterate",2
+69,Responsive Web Design Fundamentals,HTML,HTML,Medium,What HTML element is the largest heading?,<h1>,<h6>,<h3>,<h4>,<h1>,1
+72,Responsive Web Design Fundamentals,HTML,HTML,Medium,What are the attributes you can add to an HTML table?,<table><tl><th><caption>,<tr><tl><tm><tr>,<table><tr><td><th><caption>,<table><span><td><p><caption>,<table><tr><td><th><caption>,3
+74,Advanced CSS,selectors,selectors,Medium,What property specifies the stack order of an element?,nav-index,list-style,all,z-index,z-index,4
+78,Advanced CSS,Syntax,Syntax,Medium,How would you display a link without an underline?,a {text-decoraction:no-underline;},a {text-decoraction:none;},a {decoration:none},a{text-underline:none};,a {text-decoraction:none;},2
+80,Advanced CSS,selectors,selectors,Medium,How would you select all the p elements inside of a div?,div p,div.p,div+p,div=p,div p,1
+81,Advanced CSS,selectors,selectors,Medium,What is the default value of the position property?,fixed,relative,absolute,static,static,4
+85,Angular Fundamentals (basic),$http service and dependency injection,$http service and dependency injection,Medium,How does an object/function get a hold of its dependcies?,By finding the old operator.,By reffering to the local variable.,By using a new operator.,By passing the dependency anywhere.,By using a new operator.,3
+86,Advanced Angular (advanced),Directives,Directives,Medium,How to define one-way binding in angular component ?,<,@,::,=,<,1
+90,Advanced Angular (advanced),Directives,Directives,Medium,What is the correct syntax for two-way binding?,"<input [(ngModel)]=""heroName"">","<input [(ngInput)]=""heroName"">","<input [(ngController)]=""heroName"">","<input [(ngRoute)]=""heroName"">","<input [(ngModel)]=""heroName"">",1
+91,Advanced Angular (advanced),$scope,$scope,Medium,What is a characteristic of $scope?,$scope can be nested to give global access to application components.,$scope proivdes context against which expressions are evaluated.,The watch model mutates scopes to aid $watch,$scope inherits properties from it child scope.,$scope proivdes context against which expressions are evaluated.,2
+92,Advanced Angular (advanced),$scope,$scope,Medium,What does linking do?,Combines the directive with a scope.,Searches for DOM listeners and combines them with objects.,Combines functions with specific models.,Combines directives with a service.,Combines the directive with a scope.,1
+93,Advanced Angular (advanced),$scope,$scope,Medium,How would you retrieve a scope from the DOM?,inspect element in the browser,run npm debug,click preview,none,inspect element in the browser,1
+95,Advanced Angular (advanced),$scope,$scope,Medium,What is $rootscope?,Refers to an object which is accessible everywhere in the application.,Refers to an object that can only be accessed locally.,Refers to a function that can only be accessed globally.,Provides API's to observe model mutations.,Refers to an object which is accessible everywhere in the application.,1
+97,Advanced Angular (advanced),"promises, filters or services","promises, filters or services",Medium,What does a pipe do?,Takes in data and transforms it to an output,Releases data as an output and tranforms it as an input.,Interpolates data into a component.,Transforms objects into an output.,Takes in data and transforms it to an output,1
+102,Advanced Angular (advanced),Service,Service,Medium,Which of the following is a built-in service?,$scope,$http,Both A and B,None of the Above,$http,2
+103,Advanced Angular (advanced),Directives,Directives,Medium,When should you use an attribute?,When decorating a old element with no functionality.,When decorating an existing element with new functionality.,When decorating an exisiting element with old functionality.,When decorating an old element with new functionality.,When decorating an existing element with new functionality.,2
+105,Advanced Angular (advanced),Directives,Directives,Medium,What directive would an html element through a button click?,ng-controller,ng-clear,ng-hide,ngIf,ng-hide,3
+106,Object-Oriented JavaScript Fundamentals,Functions,Functions,Medium,Which of the following is not a characteristic of a function?,The function statement.,The name of the function.,The parameters of the function.,The objects of a function.,The objects of a function.,4
+109,Object-Oriented JavaScript Fundamentals,Functions,Functions,Medium,What function determines if the value is not a number?,``isNaN()```,```eval()```,```undefined()```,```getValue()```,``isNaN()```,1
+110,Object-Oriented JavaScript Fundamentals,Functions,Functions,Medium,What is an example of functional literal notation?,"```
+function () {
+return 1;
+};
+
+```","```
+a = function () {
+return 1;
+};
+
+```","```
+var a = function () {
+return 1;
+};
+
+```","```
+var = function () {
+return 1;
+};
+
+```","```
+var a = function () {
+return 1;
+};
+
+```",3
+112,Object-Oriented JavaScript Fundamentals,Functions,Functions,Medium,What is the benefit of having private functions?,You keep the local namespace clean,You expose all the functions in the application.,You keep the global namespace clean,There is no benefit,You keep the global namespace clean,3
+114,Object-Oriented JavaScript Fundamentals,Functions,Functions,Medium,What function looks for decimals when trying to figure out a number from your input?,```parseDecimal()```,```parseInteger()```,```parseFloat()```,```parseInt()```,```parseFloat()```,3
+119,Object-Oriented JavaScript Fundamentals,Objects,Objects,Medium,Which of the following is not a way to access a global variable?,As a variable,As a method of a global object.,As a property of a global object.,As a property of a object.,As a method of a global object.,2
+120,Object-Oriented JavaScript Fundamentals,Objects,Objects,Medium,Built-in objects are divided into which of the following groups?,"Wrapper objects, utility objects, error objects","Wrapper objects, utility objects, data objects","Data wrapper objects, utility objects, error objects",Utility objects and error objects,"Data wrapper objects, utility objects, error objects",3
+121,Object-Oriented JavaScript Fundamentals,Objects,Objects,Medium,What does the push() method do?,Modifies the source array.,Appends a new element at the end of an array.,Returns a string containing the values of all the elements in the array.,Returns a piece of the array without modifying the source array.,Appends a new element at the end of an array.,2
+122,Object-Oriented JavaScript Fundamentals,Objects,Objects,Medium,What method can you use to invoke a function and pass any argument?,```Function()```,```say()```,```call()```,```toString()```,```call()```,3
+123,Object-Oriented JavaScript Fundamentals,Objects,Objects,Medium,What is an example of a data wrapper object?,Boolean,Math,Date,Error,Boolean,1
+127,Object-Oriented JavaScript Fundamentals,Prototypes,Prototypes,Medium,Why is it necessary to set the prototype constructor?,To create a class in the global scope.,To initialize the ```constructor``` on the ```f.prototype``` whenever a function is declared.,To initialize the method of the object.,None of the above,To initialize the ```constructor``` on the ```f.prototype``` whenever a function is declared.,2
+129,Object-Oriented JavaScript Fundamentals,Prototypes,Prototypes,Medium,What keyword do you use to create new objects from the same prototype?,```try```,```do```,```new```,```create```,```new```,3
+131,Functional JavaScript Fundamentals,Operators,Operators,Medium,What is the difference between ```==``` and ```===```?,```===``` is a strict comparison operator,```==``` is a strict comparison operator,```===``` is a non-strict comparison operator,```==``` is a truthy operator,```===``` is a strict comparison operator,1
+135,Functional JavaScript Fundamentals,Objects,Objects,Medium,What object do you use to detect a client's browser name?,client.navigator,windows.navigator,browser.navigator,navigator.window,windows.navigator,2
+138,Functional JavaScript Fundamentals,Libraries,Libraries,Medium,What JavaScript library implements algebraic structures?,Lazy,Underscore,jQuery,Fantasy Land,Fantasy Land,4
+139,Functional JavaScript Fundamentals,Libraries,Libraries,Medium,What JavaScript library uses ```onmouseover``` and ```onkeydown```?,wu.Js,Bacon.Js,sloth.js,lazy.js,Bacon.Js,2
+140,Functional JavaScript Fundamentals,Functional Languages,Functional Languages,Medium,What functional language compiles into JavaScript,Clojure,Sugar,Backbone,Prototype,Clojure,1
+142,Functional JavaScript Fundamentals,Partial Function,Partial Function,Medium,What local variable does every function have that is similar to an array-like object of the argument passsed to it?,```myFunction```,```forEach```,```slice```,```arguments```,```arguments```,4
+143,Functional JavaScript Fundamentals,Function Composition,Function Composition,Medium,What type of function only takes a single output?,Unary,Polyadic,Binary,Variadic,Unary,1
+147,Functional JavaScript Fundamentals,Category Theory,Category Theory,Medium,What is Category Theory?,A theoretical concept that empowers pollyfill composition.,A theoretical concept that empowers object composition.,A theoretical concept that empowers method composition.,A theoretical concept that empowers function composition.,A theoretical concept that empowers function composition.,4
+148,Functional JavaScript Fundamentals,Category Theory,Category Theory,Medium,What type of function works only on types?,Objects,Morphisms,Functors,Partial,Morphisms,2
+150,Functional JavaScript Fundamentals,Monads,Monads,Medium,Which of the following is NOT a Monad?,Maybes,Helpers,Promises,Lenses,Helpers,2
+151,Functional JavaScript Fundamentals,Trampolining,Trampolining,Medium,What type of expression can you use to hack the conpete of tail-call elimination?,Thunks,The Y-combinator,Memoization,Pitfall,Thunks,1
+152,Functional JavaScript Fundamentals,Scope,Scope,Medium,Which of the following function is used in local scope?,forEach,if,for,while,forEach,1
+155,Functional JavaScript Fundamentals,Objects,Objects,Medium,"What is the preferred method to create objects with class-based, classical inheritance?",```Object.create()```,```Prototype.create()```,```init.create()```,```get.create()```,```Object.create()```,1
+156,TypeScript Basics,Types,Types,Medium,What does an ```enum``` do?,A type that is used to represent any Javascript value.,The abscence of having any ```type```,A string that can have a unlimited number of different values.,It is a way of giving more friendly names to sets of numeric values.,It is a way of giving more friendly names to sets of numeric values.,4
+158,TypeScript Basics,Declarations,Declarations,Medium,Ambient declarations fascilated integration between which of the following?,"Existing JavaScript code, the DOM, and the BOM","The DOM, The Host, The BOM","Existing JavaScript code, The code compiler, The Host","Exisiting JavaScript code, The code compiler, The DOM","Existing JavaScript code, the DOM, and the BOM",1
+159,TypeScript Basics,Bitwise,Bitwise,Medium,How would you express a bitwise operator for shifting right with zero operators?,>>,>>>,<<,<<<,>>>,2
+162,TypeScript Basics,Functions,Functions,Medium,What variable is a built-in object and acts similar to an array?,```isNan```,```add```,```number```,```arguments```,```arguments```,4
+165,TypeScript Basics,Mixins,Mixins,Medium,What OOP feature is another way to build up classes from reusable components by combining partial classes?,Aggregation,Mixins,Association,Compositions,Mixins,2
+166,TypeScript Basics,LSP/Subtypes,LSP/Subtypes,Medium,What does the Liskov substituition principle state?,Subtypes must be substitutable for their base types.,Types must be substitutable for their base subtypes.,Subtypes must be substitutable for their hierarchical types.,Does not exist.,Subtypes must be substitutable for their base types.,1
+167,TypeScript Basics,Runtime,Runtime,Medium,Which of the following is not apart of the W3C DOM standard?,```document```,```this```,```layers```,```process```,```layers```,3
+171,TypeScript Basics,Basics,Basics,Medium,How do you compile TypeScript Files?,tsc <File Name>,ts <File Name>,tc <File Name>,typescript <File Name>,tsc <File Name>,1
+172,TypeScript Basics,Data Types,Data Types,Medium,Which of the following is a data type that TypeScript supports?,Integer,Falsey,Boolean,Truthy,Boolean,3
+174,TypeScript Basics,Modifier,Modifier,Medium,What is the default access modifier for members of a class?,```private```,```child```,```nth```,```public```,```public```,4

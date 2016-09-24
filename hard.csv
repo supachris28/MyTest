@@ -1,0 +1,107 @@
+ID,Skill Card,Sub-topic (S),Title (T),Difficulty (Q),Question,Answer 1,Answer 2,Answer 3,Answer 4,Correct Answer,New Correct Answer
+7,Responsive Web Design Fundamentals,Media queries,Media queries,Hard,What is a shorthand syntax for media queries to apply to all media types?,@media all (max-width:800px) {...},@media all and (max-width:800px) {...},@media all and (max-width:800px) {...},@media (max-width:800px) {...},@media (max-width:800px) {...},4
+9,Responsive Web Design Fundamentals,Media queries,Media queries,Hard,How do media queries account for HiDPI devices?,"@media (min-resolution: 200dppx) {
+/* styles */
+}","@media (min-resolution: 200px) {
+/* styles */
+}","@media (min-resolution: 2dppx) {
+/* styles */
+}","@media (min-resolution: 2px) {
+/* styles */
+}","@media (min-resolution: 2dppx) {
+/* styles */
+}",3
+10,Responsive Web Design Fundamentals,Media queries,Media queries,Hard,What is the purpose of the viewport ```meta``` tag?,To provide a way for web pages to communicate to mobile browsers seperately from web browsers how they would like the browser to render the page.,To provide a way for web pages to communicate to mobile browsers how they would like the web browser to render the page.,To provide a way for mobile web pages to coomunicate to desktop browsers how they would the browser to render the web page.,To provide a way for web pages to communicate to web browsers how they would like the web browser to render the page.,To provide a way for web pages to communicate to mobile browsers how they would like the web browser to render the page.,2
+16,Responsive Web Design Fundamentals,Fluid layouts & responsive images,Fluid layouts & responsive images,Hard,What media query would you use to check the device width instead of the browser width and not change when you resize the browser window?,```max-device-wdith```,```min-width```,```min-device-width```,```min-device-height```,```min-device-width```,3
+21,Advanced CSS,selectors,selectors,Hard,What is a class selector?,A group of CSS attributes that can be applied to HTML elements with the same class.,A group of CSS attributes that are used to add additional effect to selected HTML elements.,A group of CSS attributes that can be applied to HTML elements with different classes.,A group of CSS attributes that are not explicility defined in the markup.,A group of CSS attributes that can be applied to HTML elements with the same class.,1
+30,Angular Fundamentals (basic),Directives,Directives,Hard,How would you pass an interpolated expression into a directive?,```$Observe```,```$Watch```,Both A and B,None of the Above,Both A and B,3
+31,Angular Fundamentals (basic),Directives,Directives,Hard,What is NOT one of the phases of a directive definition function execution?,```$compile()```,The controller,postLink,```$scope```,```$scope```,4
+57,UX Design Basics,Responsive design,Responsive design,Hard,What is not a best practice for design for mobile?,Keep Headings Short,Use pop ups.,Put labels above the form inputs.,Make your type default to at 14px.,Use pop ups.,2
+84,Angular Fundamentals (basic),$http service and dependency injection,$http service and dependency injection,Hard,"If a service requires a dependency, what would you need in order to inject into a class?",A provider,A component,A decorator,None,A decorator,3
+89,Advanced Angular (advanced),Directives,Directives,Hard,What kind of directive changes the DOM layout?,Components,Structural,Attribute,None of the above,Structural,2
+94,Advanced Angular (advanced),$scope,$scope,Hard,What comand do you run in the console to retrieve the associated scope?,angular.getString.scope(),angular.getDocumentId.scope(),angular.element($0).scope(),angular.inspect.scope(),angular.element($0).scope(),3
+99,Advanced Angular (advanced),"promises, filters or services","promises, filters or services",Hard,What directive would you apply a pipe to?,Ng-Controller,*NgIg,*ng-for,*ng-valid,*ng-for,3
+100,Advanced Angular (advanced),"promises, filters or services","promises, filters or services",Hard,How would you make a service reture a promise?,By injecting ```$s``` dependecy in the service.,By injecting ```$a``` dependecy in the service.,By injecting ```$f``` dependecy in the service.,By injecting ```$q``` dependecy in the service.,By injecting ```$q``` dependecy in the service.,4
+104,Advanced Angular (advanced),Directives,Directives,Hard,When would you use Directive Definition Object?,When creating a custom directive.,When creating a custom object.,When creating a custom function.,When creating a custom pipe.,When creating a custom directive.,1
+111,Object-Oriented JavaScript Fundamentals,Functions,Functions,Hard,"What type of function is this: ```
+var b = function (a) {
+return a;
+};
+
+```",Anoymous Function,Built-In Function,Declared Function,Callback Function,Anoymous Function,1
+124,Object-Oriented JavaScript Fundamentals,Objects,Objects,Hard,What will return ```object``` when used with an array?,```typeof```,```arguments```,```return```,```console.log```,```typeof```,1
+125,Object-Oriented JavaScript Fundamentals,Objects,Objects,Hard,Which of the following is a constant property?,```Math.PI```,```Math.Enum```,```Math.Add```,```Math.Sub```,```Math.PI```,1
+128,Object-Oriented JavaScript Fundamentals,Prototypes,Prototypes,Hard,How would you check to see if an object is an array?,```Object.prototype.toString.call```,```Object.prototype.call```,```Object.get.toString.call```,```Object.toString.call```,```Object.prototype.toString.call```,1
+130,Object-Oriented JavaScript Fundamentals,Prototypes,Prototypes,Hard,How would you add a new property to a Prototype?,By method chaining the object.,By adding the property to the end of the prototype.,By using ```new``` before the object.,You cannot add a new property to an existing object.,You cannot add a new property to an existing object.,4
+141,Functional JavaScript Fundamentals,Function,Function,Hard,What function lets you define ```this``` keyword as the first argument?,```bindFirstArg()```,```apply()```,```call()```,```bind()```,```call()```,3
+146,Functional JavaScript Fundamentals,Partial Function,Partial Function,Hard,What method would you use to slice an arugments in an Array?,```slice```,```slice.call```,```slice.apply```,```slice.bind```,```slice.call```,2
+149,Functional JavaScript Fundamentals,Category Theory,Category Theory,Hard,Which of the following is an example of a functor?,"```
+[1, 4, 9].call(Math.sqrt);
+
+var map = function(f, a) {
+return arr(a).call(func(f));
+}
+```","```
+[1, 4, 9].applyl(Math.sqrt);
+
+var map = function(f, a) {
+return arr(a).apply(func(f));
+}
+```","```
+[1, 4, 9].bind(Math.sqrt);
+
+var map = function(f, a) {
+return arr(a).bind(func(f));
+}
+```","```
+[1, 4, 9].map(Math.sqrt);
+
+var map = function(f, a) {
+return arr(a).map(func(f));
+}
+```","```
+[1, 4, 9].map(Math.sqrt);
+
+var map = function(f, a) {
+return arr(a).map(func(f));
+}
+```",4
+161,TypeScript Basics,Functions,Functions,Hard,What is an example of a function using type declaration annotation?,"function Name(name: string) : string{
+if(name) {
+return 的 drive a "" + name;
+}
+}
+","function carName(string) : {
+if(name) {
+return 的 drive a "" + name;
+}
+}
+","function() {
+if(name) {
+return 的 drive a "" + name;
+}
+}","function carName(name : string) : string {
+if(name) {
+return 的 drive a "" + name;
+}
+}
+","function carName(name : string) : string {
+if(name) {
+return 的 drive a "" + name;
+}
+}
+",4
+163,TypeScript Basics,Methods,Methods,Hard,What is the execution flow of the ```render``` method?,"Load JSON data, Load the template, Compile the template, transform JSON into HTML, Appends HTML to the DOM.","Load the template. Load JSON data, Compile the template, transform JSON into HTML, Appends HTML to the DOM.","Load the template, Load JSON data, transform JSON into HTML, Compile the template, Appends HTML to the DOM.","Load the template, Compile the template, Load JSON data, transform JSON into HTML, Appends HTML to the DOM.","Load JSON data, Load the template, Compile the template, transform JSON into HTML, Appends HTML to the DOM.",1
+168,TypeScript Basics,Runtime,Runtime,Hard,What is an advantage of the event loop?,The execution order is predictable and easy to follow.,The application is responsive.,The speed is dramatically increased.,There is no advantage.,The execution order is predictable and easy to follow.,1
+169,TypeScript Basics,Runtime,Runtime,Hard,"With the following code snippet,
+```fconsole.log(this); // global (window)
+
+function f2(){
+""use strict"";
+return this; // undefined
+}
+console.log(f2()); // undefined
+console.log(this); // window```,
+
+```this``` will point to what value?",```undefined```,```none```,```window```,```NaN```,```undefined```,1
+175,TypeScript Basics,Decorators,Decorators,Hard,What keyword would you use if a JavaScript library does not have TypeScript defintion files?,```catch```,```declare````,```do```,```switch```,```declare````,2
