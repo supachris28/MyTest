@@ -30,6 +30,7 @@ angular.module('assessments', [])
         $scope.QsAtCurrentLevel = 0;
         $scope.lastWrong = false;
         $scope.assessmentLevel = 0;
+        $scope.TotalQuestions = 0;
         
         $scope.wereYouRight = "";
         
@@ -42,7 +43,11 @@ angular.module('assessments', [])
             if (level == 2) levelText = "hard";
             
             chosen = GetQuestion(levelText);
-            while (chosen.title === undefined || chosen.id == "") GetQuestion(levelText);
+            console.log("Chosen returned:", chosen);
+        
+            while (chosen.title === undefined || chosen.id == "ID") GetQuestion(levelText);
+            
+            $scope.TotalQuestions += 1;
             
             $scope.QuestionTitle = chosen.title;
             $scope.QuestionText = chosen.text;
@@ -66,7 +71,10 @@ angular.module('assessments', [])
                 $scope.WrongInARow = 0;
                 if ($scope.CurrentLevel == 0 && $scope.EasyQsCompleted >= easyRequired) $scope.CurrentLevel += 1;
                 if ($scope.CurrentLevel == 1 && $scope.MediumQsCompleted >= mediumRequired) $scope.CurrentLevel += 1;
-                if ($scope.CurrentLevel == 2 && $scope.HardQsCompleted >= hardRequired) $scope.wereYouRight = "Winner, winner, chicken dinner!";
+                if ($scope.CurrentLevel == 2 && $scope.HardQsCompleted >= hardRequired) {
+                    $scope.wereYouRight = "Winner, winner, chicken dinner!  You are an expert!";
+                    $scope.testRunning = false;
+                }
                 
                 $scope.assessmentLevel = Math.floor((($scope.EasyQsCompleted / easyRequired) * 0.2
                                             + ($scope.MediumQsCompleted / mediumRequired) * 0.3
